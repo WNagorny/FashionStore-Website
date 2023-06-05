@@ -1,8 +1,12 @@
+import Header from "./components/header/Header.jsx";
+
+
 
 function App() {
   return (
     <div className="App">
-      <span>Let's Start</span>
+      <Header/>
+      
     </div>
   );
 }

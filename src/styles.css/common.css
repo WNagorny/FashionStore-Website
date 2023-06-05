@@ -1,0 +1,18 @@
+
+:root{
+   --textColor: #000;
+   --bg-color:#F5F5F5;
+   --second-bg-color:#EBD96B
+}
+
+body{
+   color: var(--textColor);
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+}
+
+.container{
+   max-width: 1780px;
+   margin: 0 auto;
+   padding: 0 30px;
+}

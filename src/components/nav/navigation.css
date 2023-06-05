@@ -1,0 +1,23 @@
+.navigation__list {
+	display: flex;
+	gap: 65px;
+	align-items: center;
+}
+
+.navigation__list a {
+	color: var(--textColor);
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+}
+
+.navigation__list .navigation__list-sign{
+   border-radius: 7px;
+   padding: 13px 22px 17px;
+   color: #FEFEFE;
+   font-size: 24px;
+   line-height: 1.5;
+   letter-spacing: -0.03em;
+   background-color: #000;
+}
