@@ -1,0 +1,13 @@
+.brands {
+	background-color: var(--second-bg-color);
+	padding: 60px 0 55px;
+}
+
+.brands__list {
+	display: flex;
+   gap: 120px;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--second-bg-color);
+   mix-blend-mode:darken ;
+}

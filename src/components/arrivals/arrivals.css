@@ -1,0 +1,94 @@
+.arrivals {
+	padding: 120px 0 143px;
+}
+
+.arrivals__header {
+	margin-bottom: 100px;
+}
+
+.title-2::after {
+	content: '';
+	position: absolute;
+   z-index: -1;
+	width: 190px;
+	height: 32px;
+	right: 0;
+	bottom: 0;
+	background-image: url('../../assets/icons/decor-yellow.svg');
+}
+
+.arrivals__cards {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 28px;
+}
+
+.card__img img {
+	width: 484px;
+	height: 704px;
+	border-radius: 20px;
+}
+
+.card__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card__content h3 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 1.56;
+	letter-spacing: -0.04em;
+   margin-bottom: 7px;
+}
+
+.card__content p{
+   color: #7F7F7F;
+   margin: 0;
+}
+
+.card__arrow{
+   position: relative;
+   left: 0;
+}
+
+.card:hover .card__img{
+   animation: opacity 0.4s ease-in-out;
+}
+
+.card:hover .card__arrow{
+   animation: slide 0.5s ease;
+}
+
+@keyframes opacity {
+   0%{
+      opacity: 1;
+   }
+
+   50%{
+      opacity: 0.7;
+   }
+
+
+   100%{
+      opacity: 1;
+   }
+}
+
+@keyframes slide {
+   
+   0%{
+      left: 0;
+   }
+
+   50%{
+      left: -20px;
+   }
+
+
+   100%{
+      left: 0;
+   }
+
+}
